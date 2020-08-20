@@ -1,0 +1,244 @@
+/* Colors
+
+rgba(19, 128, 36, 0.54);
+
+*/
+
+html, 
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Cubano-Regular';
+}
+
+
+.block {
+    content: "";
+    display: block;
+}
+
+/* FONT FACES */
+@font-face {
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+
+/* SECTION COVER */
+#cover {
+    height: 100%;
+    background: url(../img/back.gif) center;
+    background-size: cover;
+    color: white; 
+}
+
+.wall-sticker {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 24rem 20rem 16rem 3rem;
+    font-family: 'Cubano-Regular';
+    font-size: 5rem;
+    color: white;
+}
+
+.moto {
+    font-family: 'Cubano-Regular';
+    font-size: 3rem;
+    margin-top: 245px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* SPANS */
+.bold-green {
+    color: rgba(19, 128, 36, 0.9);
+}
+
+.green-underline {
+    border-bottom: 1px solid rgba(19, 128, 36, 0.9);
+}
+
+
+/* ANIMATIONS */
+
+.js-wp-1 {
+    opacity: 0;
+}
+
+.js-wp-1.animated {
+    opacity: 1;
+}
+
+
+.js-wp-2 {
+    opacity: 0;
+    animation-delay: 0.7s;
+}
+
+.js-wp-2.animated {
+    opacity: 1;
+}
+
+.js-wp-3 {
+    opacity: 0;
+    animation-delay: 0.7s;
+}
+
+.js-wp-3.animated {
+    opacity: 1;
+}
+
+.js-wp-4 {
+    opacity: 0;
+}
+
+.js-wp-4.animated {
+    opacity: 1;
+    animation-delay: 1.4s;
+}
+
+
+
+br {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS */
+
+
+
+@media only screen and (max-width: 1920px) {
+   
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 13rem 20rem 10rem 3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .fa-facebook-square,
+    .fa-github,
+    .fa-linkedin-square,
+    .fa-instagram {
+        font-size: 43px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        font-size: 15px;
+    }
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 135px;
+    }
+    
+    
+    
+    
+    .fa-facebook-square,
+    .fa-github,
+    .fa-linkedin-square,
+    .fa-instagram {
+        font-size: 20px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 992px) {
+    .moto {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .moto {
+        display: none;
+    }
+    
+    .fa-arrow-down {
+        position: absolute;
+        right: 60px;
+        top: 150px;
+    }
+    
+    
+    
+    .num {
+        margin-left: 0;
+    }
+    
+     .fa-facebook-square,
+    .fa-github,
+    .fa-linkedin-square,
+    .fa-instagram {
+        font-size: 30px;
+    }
+    
+}
+    
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 544px) {
+    
+    .fa.fa-arrow-down {
+        display: none;
+    }
+    
+    br {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .testimonial {
+        margin-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    
+    .num {
+        margin-left: 0.1px;
+    }
+    
+}
+
+
+
+@media only screen and (max-height: 865px) {
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 7rem 20rem 2rem 3rem !important;
+    }
+}
+
+
